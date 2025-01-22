@@ -15,12 +15,12 @@ public class App {
 		output("---------- Datum / outputn --------------------");
 		
 		// // aktuelle Datum
-		// LocalDate today = LocalDate.now();
-		// output("Heutiges Datum: " + today);
+		 LocalDate today = LocalDate.now();
+		 output("Heutiges Datum: " + today);
 		
 		// // bestimmtes Datum
-		// LocalDate givenDate = LocalDate.of(2012, Month.SEPTEMBER, 21);
-		// output("Bestimmtes Datum: " + givenDate);
+		 LocalDate givenDate = LocalDate.of(2012, Month.SEPTEMBER, 21);
+		 output("Bestimmtes Datum: " + givenDate);
 		
 		// // nächste Woche
 		// LocalDate aWeekFromToday = today.plusWeeks(1);
